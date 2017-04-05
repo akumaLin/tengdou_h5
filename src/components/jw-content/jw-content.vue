@@ -16,19 +16,7 @@
 
   export default {
     name: 'jwContent',
-    data(){
-      return {
-        items: [
-          {img: require('./images/jwgl_kbgl@2x.png'), text: "课表管理"},
-          {img: require('./images/jwgl_kcgl@2x.png'), text: "课程管理"},
-          {img: require('./images/jwgl_jsgl@2x.png'), text: "教师管理"},
-          {img: require('./images/jwgl_xsgl@2x.png'), text: "学生管理"},
-          {img: require('./images/jwgl_pfxt@2x.png'), text: "评分系统"},
-          {img: require('./images/jwgl_lsgl@2x.png'), text: "教室管理"},
-          {img: require('./images/jwgl_nrgl@2x.png'), text: "内容管理"}
-        ]
-      }
-    }
+
   }
 </script>
 <style scoped>

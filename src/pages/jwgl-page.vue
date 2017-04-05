@@ -5,9 +5,7 @@
       <transition name="slide-fade">
         <router-view></router-view>
       </transition>
-      <transition name="slide-fade">
-        <router-view name="a"></router-view>
-      </transition>
+
     </div>
   </div>
 </template>
@@ -22,7 +20,16 @@
 </script>
 
 <style>
+  #jwpg {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+  }
 
+  .jwpg:after {
+    clear: both
+  }
   .router-view {
     float: right;
     width: 90vw;

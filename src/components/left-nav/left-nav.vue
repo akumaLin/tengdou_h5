@@ -21,11 +21,11 @@
     data(){
       return {
         items: [
-          {img: require('./images/sy_sy@2x.png'), text: "首页",link:"/jw"},
-          {img: require('./images/sy_jwgl@2x.png'), text: "教务管理",link:"/s"},
+          {img: require('./images/sy_sy@2x.png'), text: "首页", link: "/sy"},
+          {img: require('./images/sy_jwgl@2x.png'), text: "教务管理", link: "/jw"},
           {img: require('./images/sy_spgl@2x.png'), text: "视频直播",link:"/video"},
           {img: require('./images/sy_tdsc@2x.png'), text: "腾豆商城",link:"/sc"},
-          {img: require('./images/sy_ddgl@2x.png'), text: "订单管理",link:"/jw/dd"},
+          {img: require('./images/sy_ddgl@2x.png'), text: "订单管理", link: "/dd"},
           {img: require('./images/sy_cwxt@2x.png'), text: "财务系统",link:"/cw"},
           {img: require('./images/sy_grzx@2x.png'), text: "个人中心",link:"/gr"}
         ],
@@ -41,7 +41,7 @@
     width: 10vw;
     height: 100vh;
     box-sizing: border-box;
-   position: absolute;
+    position: relative;
     left: 0;
     z-index:99;
   }

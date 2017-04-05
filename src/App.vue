@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-
     <router-view></router-view>
   </div>
 </template>
@@ -35,6 +34,7 @@
   a,button,input{
     tap-highlight-color:transparent;
     -webkit-tap-highlight-color:transparent;
+    outline: none;
   }
   a,a:link,a:active,a:hover,a:visited{
     text-decoration:none;

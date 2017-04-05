@@ -333,7 +333,7 @@
     padding: 0 2.7vmin 0 2.7vmin;
     width: 100%;
     box-sizing: border-box;
-    height: 76vh;
+    height: 90vh;
     overflow: scroll;
 
   }
